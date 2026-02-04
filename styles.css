@@ -1,5 +1,46 @@
 body {
-  background: pink;
-  font-family: Calibri;
+  background: rgb(248, 11, 50);
+  font-family: "Dancing Script";
   text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+} 
+.card {
+  background: white;
+  padding: 80px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  margin: auto;
+  text-align: center;
+}
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.btn {
+  padding: 15px 30px;
+  font-size: 20px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+/* Botón Sí */
+.btn.yes {
+  background: #ff4d6d;
+  color: white;
+}
+/* Botón No */
+.btn.no {
+  background: #ccc;
+  color: #333;
+}
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
