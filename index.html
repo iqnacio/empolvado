@@ -57,12 +57,12 @@
         "#e6d6ff"   // lila
       ];
 
-      for (let i = 0; i < 500; i++) {
+      for (let i = 0; i < 700; i++) {
         const note = document.createElement("div");
-        const dx = (Math.random() * 40 - 20) + "px";
-        const dy = (Math.random() * -40 - 10) + "px";
-        const duration = (Math.random() * 6 + 4) + "s";
-        const delay = (Math.random() * 5) + "s";
+        const dx = (Math.random() * 60 - 30) + "px";
+        const dy = (Math.random() * -60 - 30) + "px";
+        const duration = (Math.random() * 5 + 4) + "s";
+        const delay = (Math.random() * 3) + "s";
 
         note.style.setProperty("--dx", dx);
         note.style.setProperty("--dy", dy);
